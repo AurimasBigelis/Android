@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="265dp"
+        android:background="#FF0000" />
+    <TextView
+        android:id="@+id/f"
+        android:layout_below="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="265dp"
+        android:background="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/c"
+        android:layout_width="match_parent"
+        android:layout_height="265dp"
+        android:layout_below="@+id/f"
+        android:layout_marginTop="0dp"
+        android:background="#00008B" />
+
+    <Button
+        android:id="@+id/d"
+        android:text="Button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+
+    <Button
+        android:id="@+id/da"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="97dp"
+        android:text="Button"
+
+    <Button
+        android:id="@+id/v"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@id/c"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="97dp"
+        android:text="Button" />
+</RelativeLayout>
